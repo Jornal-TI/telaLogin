@@ -1,0 +1,67 @@
+  .background-data {
+      background-color: rgb(23, 36, 95);
+  }
+
+  .data {
+      padding: 1px;
+      font-size: 20px;
+      color: white;
+      display: flex;
+      margin-left: 8%;
+  }
+
+  .background-titulo {
+      background-image: url("../../img/tech3.jpg");
+      background-size: cover;
+  }
+
+  .titulo {
+      padding: 1px;
+      color: white;
+      margin-left: 8%;
+  }
+
+  .background-nav {
+      background-color: rgb(23, 36, 95);
+  }
+
+  nav {
+      padding: 1px;
+      font-size: 20px;
+      color: white;
+      margin-left: 4.5%;
+  }
+
+  .pesquisa {
+      /* margin-right: 8%; */
+      border-radius: 5px;
+      border: none;
+      
+  }
+
+  .pesquisa::placeholder {
+      text-align: center;
+  }
+
+  li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      /* justify-content: space-between; */
+      justify-content: space-evenly;
+  }
+
+  a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      font-size: 20px;
+      padding: 14px;
+      transition: all 255ms linear 0s;
+      border-radius: 5px;
+
+  }
+
+  nav ul li a:hover {
+      background: rgb(255, 255, 255, 0.15);
+  }

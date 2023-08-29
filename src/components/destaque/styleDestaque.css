@@ -1,0 +1,19 @@
+.titulo-destaque {
+    color: white;
+    margin-left: 8%;
+}
+
+.img-destaque {
+    margin-left: 8%;
+
+}
+
+.text-container {
+    position: absolute;
+    top: 45rem;
+    left: 22rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    max-width: 400px;
+}
